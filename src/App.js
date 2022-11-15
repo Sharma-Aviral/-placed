@@ -2,6 +2,7 @@
 import Home from './pages/homes/Home';
 import Login from './pages/login/Login';
 import List from './pages/list/List';
+import New from  './pages/new/New';
 import { BrowserRouter , Routes, Route } from "react-router-dom";
 
 
@@ -14,6 +15,8 @@ function App() {
         <Route index element={<Home/>}/>
         <Route path="login" element={ <Login/> } />
         <Route path="addUser" element={ <List/> } />
+        <Route path="users/new" element={ <New/> } />
+
       </Routes>
       </BrowserRouter>
       
