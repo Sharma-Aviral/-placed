@@ -51,6 +51,14 @@ const Sidebar = () => {
                 <SettingsIcon className='icons'/>
                 <h3>Settings</h3>
                 </li>
+
+                <Link to="/signout" style={{textDecoration: "none" , color: 'inherit'}}>   
+            <li>
+                
+            <HailIcon className='icons'/>
+                <h3>Logout</h3>
+                </li>
+                </Link>
         </ul>
         </div>
     </div>
